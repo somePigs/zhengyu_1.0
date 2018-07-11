@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color: #454545;
+    min-width:1200px;
+}
+li{
+    list-style: none;
+}
