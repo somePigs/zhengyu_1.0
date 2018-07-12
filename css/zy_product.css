@@ -74,21 +74,3 @@
     margin-right: 0.06rem;
     vertical-align: middle;
 }
-/*更多按钮 class="more"*/
-a.more{
-    display: block;
-    border-radius: 0.06rem;
-    width: 3.24rem;
-    height: 0.75rem;
-    line-height: 0.75rem;
-    border: 1px solid #ededed;
-    color: #afafaf;
-    font-size: 0.33rem;
-    margin: 0.40rem auto;
-    text-align: center;
-    text-decoration: none;
-}
-a.more:hover,a.more:visited{
-    background: #3f3f3f;
-    color: #aeaeae;
-}
