@@ -3,5 +3,117 @@
 }
 .index .dayang fieldset{
     border: none;
+    margin: 0.75rem auto 0.2rem;
+    width: 6.58rem;
     border-top:2px solid #b3b3b3;
+}
+.index .dayang legend{
+    text-align: center;
+    font-size: 0.4rem;
+}
+.index .dayang p{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.index .dayang img{
+    width: 100%;
+    height: auto;
+}
+/*品牌*/
+.index .pinpai{
+
+}
+.index .pinpai .titlePart{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .pinpai .titlePart p:first-child{
+    font-size: 0.4rem;
+    font-weight: bold;
+    padding: 0 0.2rem;
+    border-left: 9px solid #3e3e3e;
+    float: left;
+}
+.index .pinpai .titlePart p:last-child{
+    font-size: 0.24rem;
+    float: right;
+}
+.index .pinpai .pinpaicontent{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .pinpai .pinpaicontent li{
+    float: left;
+    width: 22%;
+    height: 2.45rem;
+    margin-top: 0.2rem;
+    margin-right: 3%;
+    border: 1px solid #cacaca;
+}
+.index .pinpai .pinpaicontent li:nth-child(4n){
+    margin-right: 0;
+}
+.index .pinpai .pinpaicontent li div:first-child{
+    float: left;
+}
+.index .pinpai .pinpaicontent li div:last-child{
+    float: left;
+    margin: 0.6rem 0 0 0.2rem;
+}
+.index .pinpai .pinpaicontent li h5{
+    font-size: 1.32rem;
+    margin-left: 0.2rem;
+}
+.index .pinpai .pinpaicontent li h6{
+    font-size: 0.32rem;
+}
+/*一站式*/
+.index .yizhanshi{
+    padding-bottom: 1.96rem;
+}
+.index .yizhanshi fieldset{
+    border: none;
+    margin: 0.75rem auto 0.2rem;
+    width: 6.58rem;
+    border-top:2px solid #b3b3b3;
+}
+.index .yizhanshi legend{
+    text-align: center;
+    font-size: 0.4rem;
+}
+.index .yizhanshi p:nth-child(2){
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.index .yizhanshi h5{
+    font-size: 0.82rem;
+    text-align: center;
+}
+.index .yizhanshi ul{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .yizhanshi li{
+    float: left;
+    width: 22%;
+    margin:0.2rem 4% auto auto;
+    height: 4.3rem;
+    background: #3e3e3e;
+    color: #c3c3c3;
+}
+.index .yizhanshi li:nth-child(4n){
+    margin-right: 0;
+}
+.index .yizhanshi p{
+    text-align: center;
+    line-height: 0.3rem;
+}
+.index .yizhanshi li p{
+    text-align: left;
+    margin: 0.4rem;
+    font-size: 0.45rem;
+    line-height: 0.55rem;
+}
+.index .yizhanshi h5.h5_1{
+    margin-top: 0.7rem;
 }
