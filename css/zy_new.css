@@ -2,6 +2,7 @@
 .index .news{
     width: 98%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .index .news h4{
     font-size: 0.34rem;

@@ -38,3 +38,8 @@ a.more:hover,a.more:visited{
     background: #3f3f3f;
     color: #aeaeae;
 }
+/*工厂设置*/
+.index .company{
+    background: #f3f3f3;
+    padding-bottom: 0.15rem;
+}
