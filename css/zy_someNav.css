@@ -1,0 +1,39 @@
+/*第二导航*/
+/*.index .someNav{*/
+/*padding: 22px 0;*/
+/*}*/
+.index .someNav div{
+    margin: 0.20rem auto;
+    padding: 0.20rem 0;
+    border: 1px solid #e2e2e2;
+    height: 1.08rem;
+    width: 98%;
+    text-align: center;
+}
+.index .someNav div h4{
+    font-size: 0.24rem;
+    color: #767676;
+}
+.index .someNav div ul li{
+    display: inline-block;
+    line-height: 0.30rem;
+    position: relative;
+    padding-right: 0.08rem;
+    /*border-right: 1px solid #aeaeae;*/
+}
+.index .someNav div ul li:after{
+    content: '';
+    height: 0.13rem;
+    width: 1px;
+    top: 0.09rem;
+    right: 0;
+    background: #aeaeae;
+    position: absolute;
+}
+.index .someNav a,.index .someNav a:link{
+    color:#aeaeae;
+    text-decoration: none;
+}
+.index .someNav a:hover,.index .someNav a:visited{
+    color: #c42127;
+}

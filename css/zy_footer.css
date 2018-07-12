@@ -1,0 +1,76 @@
+/*底部设置*/
+
+/*第一层*/
+.border_set{
+    border-bottom: 2px solid #888888;
+}
+.index .footer{
+    background: #3e3e3e;
+    color: #888888;
+}
+.index .QrCode{
+    margin: 0 auto;
+    width: 98%;
+    padding: 0.50rem 0 0.20rem 0;
+    position: relative;
+}
+.index .QrCode p:first-child{
+    font-size: 0.54rem;
+}
+.index .QrCode p:nth-child(2){
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.index .QrCode p:nth-child(3){
+    font-size: 0.30rem;
+}
+.index .QrCode img{
+    width: 1.00rem;
+    height: 1.00rem;
+}
+.index .QrCode .qrimg1,.index .QrCode .qrimg2{
+    position: absolute;
+    text-align: center;
+    bottom: 0.20rem;
+    right: 0;
+}
+.index .QrCode .qrimg1{
+    right: 1.20rem;
+}
+.index .QrCode .qrimg1 p,.index .QrCode .qrimg2 p{
+
+    font-weight: normal!important;
+    font-size: 0.20rem!important;
+}
+/*各种联系方式*/
+.index .footer .connect{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .footer .connect li{
+    float: left;
+    width: 20.5%;
+    margin-right: 6%;
+    color: #888888;
+    padding: 0.30rem 0;
+
+}
+.index .footer .connect li:last-child{
+    margin-right: 0;
+}
+.index .footer .connect h5{
+    margin-top: 0.10rem;
+    font-size: 0.16rem;
+}
+.index .footer .connect p{
+    color: #fff;
+}
+/*版权*/
+.index .footer .copyright{
+    padding: 0.20rem 0;
+    width: 98%;
+    margin: 0 auto;
+}
+.index .footer .copyright img{
+    vertical-align: middle;
+}

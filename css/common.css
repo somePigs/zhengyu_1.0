@@ -5,11 +5,18 @@
 body{
     -webkit-font-smoothing: antialiased;
     font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
-    font-size: 14px;
+    font-size:100%;
     background-color: #fff;
     color: #454545;
     min-width:1200px;
 }
 li{
     list-style: none;
+}
+p,a,li,ul{
+    font-size: 0.14rem;
+}
+/*清除浮动*/
+.left{
+    clear: both;
 }

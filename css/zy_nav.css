@@ -1,0 +1,118 @@
+/*设置顶部导航=============整体导航栏css*/
+.index .nav{
+    /*width: 100%;*/
+    background: #3f3f3f;
+    position: relative;
+}
+.index .nav .nav_containt{
+    width: 98%;
+    height: 0.90rem;
+    margin: 0 auto;
+}
+/*设置logo*/
+.index .nav .logo_tit{
+    /*position: absolute;*/
+    /*top:10px;*/
+    /*left: 60px;*/
+    margin: 0.10rem auto;
+    float: left;
+}
+.index .nav h1 .logo_tit_lk{
+    width: 1.81rem;
+    height: 0.70rem;
+    display: block;
+    background: url("../img/logo.png") no-repeat;
+    background-size: contain;
+    font-size: 0;
+}
+.index .nav ul.navUl{
+    width: 8.16rem;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.index .nav ul.navUl li{
+    float: left;
+    margin-left: 0.75rem;
+}
+.index .nav ul.navUl li a{
+    display: block;
+    height: 0.90rem;
+    line-height: 0.90rem;
+    font-size: 0.22rem;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+.index .nav ul.navUl li:hover a:after{
+    content: '';
+    background: #ffffff;
+    width: 100%;
+    height: 1px;
+    bottom: 0.23rem;
+    left: 0;
+    position: absolute;
+}
+/*导航下拉*/
+.index .nav ul.navUl li:hover div{
+    display: block;
+    z-index: 2;
+}
+.index .nav ul.navUl li div{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0.90rem;
+    left: 0;
+    background: #f7f7f7;
+    padding: 0 0 0.20rem 0;
+
+}
+.index .nav ul.navUl li div ul{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .nav ul.navUl li div ul li{
+    font-size: 0.16rem;
+}
+.index .nav ul.navUl li div ul li:first-child{
+    width: 2.56rem;
+    font-size: 0.20rem;
+    padding-top: 0.20rem;
+}
+.index .nav ul.navUl li div ul li{
+    width: 2.36rem;
+    margin: 0;
+}
+.index .nav ul.navUl li div ul li h5{
+    font-size: 0.22rem;
+    margin-top: 0.20rem;
+}
+.index .nav ul.navUl li div ul li h6{
+    font-size: 0.18rem;
+    margin-top: 0.20rem;
+}
+/*导航联系方式*/
+.index .nav .contect{
+    float: right;
+    font-size: 0.24rem;
+    color: #fff;
+    font-weight: bold
+    /*width: 275px;*/
+}
+.index .nav .contect div:first-child{
+    height: 0.90rem;
+    line-height: 0.90rem;
+}
+.index .nav .contect div:last-child{
+    margin-left: 0.02rem;
+}
+.index .nav .contect div:last-child p:first-child{
+    font-size: 0.18rem;
+    margin-top: 0.10rem;
+    font-weight: normal;
+}
+.index .nav .contect div{
+    float: left;
+    height: 0.90rem;
+}

@@ -1,0 +1,82 @@
+/*工厂设置*/
+.index .company{
+    background: #f3f3f3;
+    padding-bottom: 0.15rem;
+}
+.index .company .factory{
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+}
+.index .company .factory h4{
+    font-size: 0.54rem;
+    padding-top: 0.10rem;
+    line-height: 0.90rem;
+}
+.index .company .factory li{
+    float: left;
+    cursor:pointer;
+    width: 23%;
+    margin-right: 2%;
+}
+.index .company .factory li.fs_li{
+    margin-right: 0;
+}
+.index .company .factory h5{
+    height: 0.98rem;
+    line-height: 0.98rem;
+    font-size: 0.32rem;
+    color: #f3f3f3;
+    background: #3f3f3f;
+
+}
+.index .company .factory li.fs_li h5{
+    line-height: 0.49rem;
+}
+.index .company .factory li div{
+    border: 1px solid  #dcdcdc;
+    /*border-top: none;*/
+    color: #3f3f3f;
+    height: 5.50rem;
+}
+.index .company .factory li p:first-child{
+    width: 1.50rem;
+    height: 1.50rem;
+    margin: 0.50rem auto;
+    background-size: contain!important;
+}
+.index .company .factory li:first-child p:first-child{
+    background: url('../img/proofingGray.png');
+}
+.index .company .factory li:nth-child(2) p:first-child{
+    background: url('../img/factoryGray.png');
+}
+.index .company .factory li:nth-child(3) p:first-child{
+    background: url('../img/onestopGray.png');
+}
+.index .company .factory li:nth-child(4) p:first-child{
+    background: url('../img/centerGray.png');
+}
+.index .company .factory li h6{
+    font-size: 0.24rem;
+    margin-top: 1rem;
+}
+/*鼠标滑过状态*/
+.index .company .factory li:hover h5{
+    background: #c42227;
+}
+/*.index .company .factory li:hover div{
+    color: #c42227;
+}*/
+.index .company .factory li:first-child:hover p:first-child{
+    background: url('../img/proofingRed.png');
+}
+.index .company .factory li:nth-child(2):hover p:first-child{
+    background: url('../img/factoryRed.png');
+}
+.index .company .factory li:nth-child(3):hover p:first-child{
+    background: url('../img/onestopRed.png');
+}
+.index .company .factory li:nth-child(4):hover p:first-child{
+    background: url('../img/centerRed.png');
+}

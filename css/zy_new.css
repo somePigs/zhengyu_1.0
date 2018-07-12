@@ -1,0 +1,70 @@
+/*新闻动态*/
+.index .news{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .news h4{
+    font-size: 0.34rem;
+    color: #2d2d2d;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0.70rem;
+}
+.index .news li{
+    width: 31%;
+    float: left;
+    margin-right: 3%;
+    margin-top: 0.30rem;
+    position: relative;
+}
+.index .news li:nth-child(3n){
+    margin-right: 0;
+}
+.index .news li img{
+    width: 100%;
+    height: 2.60rem;
+}
+.index .news li h5{
+    font-size: 0.18rem;
+}
+.index .news li a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+.index .news li a:hover:before{
+    content: '';
+    width: 100%;
+    height: 2.60rem;
+    position: absolute;
+    background: rgba(0,0,0,0.7) url('../img/arrow.png') no-repeat center 0.85rem;
+    background-size: 0.60rem 0.60rem;
+}
+.index .news li a:hover .readNum{
+    /*display: block;*/
+}
+.index .news li .readNum{
+    display: block;
+    position: absolute;
+    top: 2.12rem;
+    color: #fff;
+    right: 0;
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    text-align: right;
+    background: #2d2d2d;
+    width: 97%;
+    padding-right: 3%;
+}
+.index .news li .readNum span{
+    position: absolute;
+    top: 0px;
+    left: 0.10rem;
+
+}
+.index .news li .readNum img{
+    width: 0.24rem;
+    height: 0.14rem;
+    margin-right: 0.06rem;
+    vertical-align: middle;
+}
