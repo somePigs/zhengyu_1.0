@@ -10,6 +10,7 @@
 .index .dayang legend{
     text-align: center;
     font-size: 0.4rem;
+    margin: 0 auto;
 }
 .index .dayang p{
     text-align: center;
@@ -78,6 +79,7 @@
     border-top:2px solid #b3b3b3;
 }
 .index .yizhanshi legend{
+    margin: 0 auto;
     text-align: center;
     font-size: 0.4rem;
 }

@@ -1,0 +1,46 @@
+.index .banner_disc{
+    font-size: 0.36rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    height: 0.82rem;
+    background: #9e9e9e;
+    color: #ececec;
+}
+.index img.commImg{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.index .inpt h5{
+    font-size: 0.36rem;
+    text-align: center;
+    padding: 0.6rem 0 0.3rem;
+}
+.index .inpt ul{
+    width: 98%;
+    margin: 0 auto;
+}
+.index .inpt ul li:first-child{
+    margin-top: 0;
+}
+.index .inpt ul li{
+    margin-top: 0.62rem;
+}
+.index .inpt ul li input:nth-child(2){
+    float: right;
+}
+.index .inpt ul li:nth-child(2) input,.index .inpt ul li:nth-child(5) input{
+    width: 8.66rem;
+    height: 1.02rem;
+}
+.index .inpt ul li:nth-child(3) input,.index .inpt ul li:nth-child(4) input{
+    width: 100%;
+    height: 1.02rem;
+}
+.index .inpt ul li textarea{
+    width: 100%;
+    height: 4.05rem;
+}
+.index .inpt input,.index .inpt textarea{
+    font-size: 0.3rem;
+}

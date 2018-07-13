@@ -1,0 +1,22 @@
+.index .banner_disc{
+    font-size: 0.36rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    height: 0.82rem;
+    background: #9e9e9e;
+    color: #ececec;
+}
+.index div.newNews li img{
+    height: 6rem;
+}
+.index div.newNews li .readNum{
+    top: 5.52rem;
+}
+.index div.newNews li a:hover:before{
+    content: '';
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    background: rgba(0,0,0,0.7) url('../img/arrow.png') no-repeat center 2rem;
+    background-size: 1.43rem 1.43rem;
+}

@@ -74,3 +74,14 @@
     margin-right: 0.06rem;
     vertical-align: middle;
 }
+.index .product fieldset{
+    border: none;
+    margin: 0.75rem auto 0.2rem;
+    width: 6.58rem;
+    border-top:2px solid #b3b3b3;
+}
+.index .product legend{
+    text-align: center;
+    font-size: 0.4rem;
+    margin:0 auto;
+}

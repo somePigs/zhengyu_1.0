@@ -1,0 +1,46 @@
+.index .server fieldset{
+    border: none;
+    margin: 0.75rem auto 0.2rem;
+    width: 6.58rem;
+    border-top:2px solid #b3b3b3;
+}
+.index .server legend{
+    text-align: center;
+    font-size: 0.48rem;
+    margin: 0 auto;
+}
+.index .server p:nth-child(2){
+    text-align: center;
+    font-size: 0.36rem;
+    margin-bottom: 0.2rem;
+}
+.index .server img,.index img.commImg{
+    width: 100%;
+    height: auto;
+}
+.index img.commImg2{
+    width: 98%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*介绍*/
+.index .introduction{
+
+}
+.index fieldset.introduction{
+    padding: 0.67rem 0.4rem;
+    width: 13.92rem;
+    height: 2.32rem;
+    margin: 0.75rem auto 1rem;
+    border:8px solid #3f3f3f;
+}
+.index .introduction legend{
+    text-align: center;
+    font-size: 0.4rem;
+    margin: 0 auto;
+}
+.index fieldset.introduction p{
+    font-size: 0.3rem;
+    color: #3e3e3e;
+}
