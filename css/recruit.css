@@ -1,0 +1,117 @@
+.pic_dis {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+.pic_dis fieldset {
+  border: 3px solid #454545;
+  font-size: 0.3rem;
+  padding: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.pic_dis fieldset legend {
+  text-align: center;
+  padding: 0 0.8rem;
+  font-size: 0.48rem;
+}
+.pic_dis fieldset .pic_dis_con {
+  border-top: 1px solid #454545;
+  padding-top: 0.3rem;
+  margin-top: 0.3rem;
+}
+.pic_dis fieldset .pic_dis_list {
+  font-size: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.pic_dis fieldset .pic_dis_list p {
+  font-weight: 600;
+  font-size: 0.2rem;
+  margin-bottom: 4px;
+}
+.pic_dis fieldset .pic_dis_list:last-of-type {
+  margin-bottom: 0;
+}
+.employer img {
+  display: block;
+  width: 100%;
+}
+.employer p {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #f1f1f1;
+  background: #9e9e9e;
+  font-size: 0.36rem;
+}
+.recruit_info {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.recruit_info table {
+  font-size: 0.24rem;
+  border-collapse: collapse;
+  width: 85%;
+  margin-left: 10%;
+}
+.recruit_info table td,
+.recruit_info table th {
+  border-top: 1px solid #3F3F3F;
+  text-align: left;
+  padding: 0.3rem 0;
+}
+.recruit_info table td:last-of-type,
+.recruit_info table th:last-of-type {
+  border: none;
+  text-align: center;
+}
+.recruit_info table td p,
+.recruit_info table th p {
+  font-size: 0.24rem;
+  margin-bottom: 0.05rem;
+}
+.recruit_info table tr td:nth-of-type(1) {
+  width: 20%;
+}
+.recruit_info table tr td:nth-of-type(2) {
+  width: 22%;
+}
+.recruit_info table tr td:nth-of-type(3) {
+  width: 18%;
+}
+.recruit_info table tr td:nth-of-type(4) {
+  width: 20%;
+}
+.recruit_info table tr td:nth-of-type(5) {
+  width: 8%;
+}
+.recruit_info table tr td:nth-of-type(6) {
+  width: 10%;
+}
+.recruit_info table tr:last-of-type td {
+  border-bottom: 1px solid #3F3F3F;
+}
+.recruit_info table tr:last-of-type td:last-of-type {
+  border: none;
+}
+.recruit_info table .show_more input {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 8px;
+  border: 1px solid #3f3f3f;
+}
+.recruit_info table .show_more input:hover {
+  color: #fff;
+  background: #3f3f3f;
+}
+.recruit_info table .show_more input[type="button"]:focus {
+  outline-color: transparent;
+}
+.recruit_info table .department {
+  vertical-align: top;
+}
+.need_you img {
+  width: 100%;
+  display: block;
+}
