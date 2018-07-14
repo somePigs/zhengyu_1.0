@@ -156,7 +156,6 @@
             </li>
         </ul>
     </div>
-
     <!--打样研发中心-->
     <div class="dayang">
         <fieldset>
@@ -247,7 +246,6 @@
         <p>正昱工厂是正昱品牌的强大后盾</p>
         <img src="./img/factoryImg.png"/>
     </div>
-
     <!--一站式解决-->
     <div class="yizhanshi">
         <fieldset>
@@ -271,7 +269,6 @@
         <p>正昱工厂还有贴心的仓储与送货服务，您可以选择长期或短期的印刷品存储托管</p>
         <p>按照您的需求进行定点、定时发货，让您高效率、质量强、省</p>
     </div>
-
     <div class="company">
         <div class="news">
             <h4>-新闻动态-</h4>
@@ -417,7 +414,6 @@
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
     <script charset="UTF-8">
         $(function(){ //页面加载完毕才执行
-
             //=========设置参数==========
             //图片统一高度：
             var images_height = '5.10rem';
@@ -429,7 +425,6 @@
             ];
             var images_count = images_url.length;
             //console.log(images_count);
-
             //创建节点
             //图片列表节点
             for(var j=0;j<images_count+1;j++){
@@ -443,7 +438,6 @@
                     $('.banner ol').append('<li></li>')
                 }
             }
-
             //载入图片
             $('.banner ul li').css('background-image','url('+images_url[0]+')');
             $.each(images_url,function(key,value){
@@ -456,9 +450,7 @@
 
             $('.banner ol').css('width',images_count*20+'px');
             $('.banner ol').css('margin-left',-images_count*20*0.5-10+'px');
-
             //=========================
-
             var num = 0;
             //获取窗口宽度
             var window_width = $(window).width();
