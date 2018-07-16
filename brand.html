@@ -431,7 +431,7 @@
 
         //=========设置参数==========
         //图片统一高度：
-        var images_height = '5.10rem';
+        var images_height = '7.10rem';
         //图片路径/链接(数组形式):
         var images_url = [
             'img/banner_position.png',
@@ -473,13 +473,13 @@
         var num = 0;
         //获取窗口宽度
         var window_width = $(window).width();
-        $(window).resize(function(){
-            window_width = $(window).width();
-            $('.banner ul li').css({width:window_width});
-            clearInterval(timer);
-            nextPlay();
-            timer = setInterval(nextPlay,2000);
-        });
+        // $(window).resize(function(){
+        //     window_width = $(window).width();
+        //     $('.banner ul li').css({width:window_width});
+        //     clearInterval(timer);
+        //     nextPlay();
+        //     timer = setInterval(nextPlay,5000);
+        // });
         //console.log(window_width);
         $('.banner ul li').width(window_width);
         //轮播圆点
@@ -533,14 +533,14 @@
 
             }
         }
-        timer = setInterval(nextPlay,2000);
+        timer = setInterval(nextPlay,5000);
         //鼠标经过banner，停止定时器,离开则继续播放
         $('.banner').mouseenter(function(){
             clearInterval(timer);
             //左右箭头显示(淡入)
             $('.banner i').fadeIn();
         }).mouseleave(function(){
-            timer = setInterval(nextPlay,2000);
+            timer = setInterval(nextPlay,5000);
             //左右箭头隐藏(淡出)
             $('.banner i').fadeOut();
         });

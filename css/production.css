@@ -25,7 +25,7 @@
 
 }
 .index .pinpai .titlePart{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .pinpai .titlePart p:first-child{
@@ -40,7 +40,7 @@
     float: right;
 }
 .index .pinpai .pinpaicontent{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .pinpai .pinpaicontent li{
@@ -50,6 +50,10 @@
     margin-top: 0.2rem;
     margin-right: 3%;
     border: 1px solid #cacaca;
+    cursor: pointer;
+}
+.index .pinpai .pinpaicontent li:hover{
+    color: #c42227;
 }
 .index .pinpai .pinpaicontent li:nth-child(4n){
     margin-right: 0;
@@ -92,7 +96,7 @@
     text-align: center;
 }
 .index .yizhanshi ul{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .yizhanshi li{

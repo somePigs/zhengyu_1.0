@@ -5,7 +5,7 @@
     position: relative;
 }
 .index .nav .nav_containt{
-    width: 98%;
+    width: 93.75%;
     height: 0.90rem;
     margin: 0 auto;
 }
@@ -28,7 +28,7 @@
 .index .nav ul.navUl{
     width: 8.16rem;
     height: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 3rem;
     float: left;
 }
 .index .nav ul.navUl li{
@@ -81,7 +81,7 @@
 
 }
 .index .nav ul.navUl li div ul{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .nav ul.navUl li div ul li{
@@ -118,6 +118,7 @@
 }
 .index .nav .contect div:last-child{
     margin-left: 0.02rem;
+    padding: 0.1rem 0 0.1rem 0.05rem;
 }
 .index .nav .contect div:last-child p:first-child{
     font-size: 0.18rem;
@@ -126,5 +127,5 @@
 }
 .index .nav .contect div{
     float: left;
-    height: 0.90rem;
+    height: 0.70rem;
 }

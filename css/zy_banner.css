@@ -14,7 +14,7 @@
 .banner ul li{
     /*这个100%是相对于父盒子的（会把父盒子的宽度继承过来,如父盒子300%,这这里的100%就会相当于300%）*/
     width: 100%;
-    height: 5.60rem;
+    height: 7.10rem;
     /*height: auto;*/
     float: left;
     background:  no-repeat center center;

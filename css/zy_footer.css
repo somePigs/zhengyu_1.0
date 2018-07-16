@@ -10,7 +10,7 @@
 }
 .index .QrCode{
     margin: 0 auto;
-    width: 98%;
+    width: 93.75%;
     padding: 0.50rem 0 0.20rem 0;
     position: relative;
 }
@@ -44,7 +44,7 @@
 }
 /*各种联系方式*/
 .index .footer .connect{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .footer .connect li{
@@ -59,16 +59,21 @@
     margin-right: 0;
 }
 .index .footer .connect h5{
-    margin-top: 0.10rem;
+    margin-top: 0.20rem;
     font-size: 0.16rem;
 }
+.index .footer .connect h5,
 .index .footer .connect p{
+    cursor: pointer;
+}
+.index .footer .connect h5:hover,
+.index .footer .connect p:hover{
     color: #fff;
 }
 /*版权*/
 .index .footer .copyright{
     padding: 0.20rem 0;
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
 }
 .index .footer .copyright img{

@@ -1,6 +1,6 @@
 /*大部分图片展示区域=======九宫格图片区域*/
 .index .product div{
-    width: 98%;
+    width: 93.75%;
     margin: 0 auto;
     text-align: center;
 }
